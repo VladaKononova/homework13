@@ -1,0 +1,17 @@
+small + small {
+    display: none;
+}
+
+input:valid + small {
+    display: none;
+}
+
+input:valid + small + small {
+    display: inline;
+}
+
+input:valid {
+    background: rgb(198, 243, 198);
+}
+
+
